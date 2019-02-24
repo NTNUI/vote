@@ -8,6 +8,7 @@ $abakus-light = #cc0000
 $abakus-dark = #bd0005
 $red = #b11b11
 $white = #fdfdfd
+$ntnui = #098040
 
 html
     min-height 100%
@@ -52,14 +53,16 @@ header
     text-align center
     font-size 60px
     font-weight 100
-    padding-top 50px
+    padding-top 30px
 
     img
         margin-right 15px
-        width 35px
+        margin-bottom 10px
+        height 90px
 
 footer
     position absolute
+    font-weigh 200
     height 30px
     width 100%
     margin 0 auto
@@ -69,13 +72,13 @@ footer
         color $abakus-light
 
         &:hover
-            color $abakus-dark
+            color $ntnui
 
 a
     color $abakus-light
 
     &:hover, &:focus
-        color $abakus-dark
+        color $ntnui
         text-decoration none
 
 h2, h3, .btn

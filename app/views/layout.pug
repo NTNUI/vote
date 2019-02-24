@@ -1,7 +1,7 @@
 doctype html
 html(ng-app='voteApp')
     head
-        title Abavote
+        title NTNUI-genfors
         base(href='/')
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1')
@@ -19,7 +19,7 @@ html(ng-app='voteApp')
             .container
                 .row.header: .col-xs-12
                     img(src=LOGO_SRC)
-                    span vote
+                    span Genfors
 
                 .row: block navbar
 
@@ -32,9 +32,11 @@ html(ng-app='voteApp')
               block footer
                   a(href='#', ng-controller='logoutController', ng-click='logout()' tabindex='-1') Logg ut
                   |  | Laget av
-                  a(href='http://github.com/webkom/vote' tabindex='-1' target="_blank")  Webkom
-                  |  | For
-                  a(href='https://abakus.no' tabindex='-1' target="_blank")  Abakus
+                  a(href='http://github.com/webkom/vote' tabindex='-1' target="_blank")   Abakus Webkom
+                  |  | Tilpasset
+                  a(href='https://ntnui.no' tabindex='-1' target="_blank")  NTNUI,
+                  |  av
+                  a(href='https://ntnui.no/sprint' tabindex='-1' target="_blank")  Sprint
                   |  | Se
                   a(href='/usage' tabindex='-1' target="_blank")  bruk
 

@@ -6,7 +6,7 @@ block scripts
 block content
     .container: .row
         .col-xs-12.col-sm-4.col-sm-offset-4.col-md-4.text-center
-            video(id="testing", muted, playsinline, style="width: 100%")
+            //video(id="testing", muted, playsinline, style="width: 100%")
             br
             form(action='/auth/login', method='post', role='form')
                 input(type='hidden', name='_csrf', value=csrfToken)
